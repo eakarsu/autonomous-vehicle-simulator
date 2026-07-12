@@ -1,0 +1,30 @@
+{
+  "id": "autonomous-vehicle-simulator",
+  "title": "Autonomous Vehicle Simulator App",
+  "industry": "Transportation & Logistics",
+  "industryId": "transportation-logistics",
+  "specialization": "Autonomous Vehicle Simulator",
+  "sourcePlatformGroup": "transport-logistics-platform",
+  "sources": [
+    "AIAutonomousDroneOperations",
+    "AIAutonomousVehicleSimulator",
+    "AISpaceportOps",
+    "AIVehicleInspectionCertification"
+  ],
+  "featureCount": 253,
+  "candidateFeatureCount": 391,
+  "eliminatedSimilarFeatures": 138,
+  "evidenceCount": 959,
+  "aiPageCount": 16,
+  "sourceAIPageCount": 16,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 1,
+    "seededTables": 21,
+    "seededRows": 315
+  },
+  "visibleFeatureCount": 45,
+  "featureVisibilityMode": "seeded-or-ai"
+}
