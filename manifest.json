@@ -11,10 +11,10 @@
     "AISpaceportOps",
     "AIVehicleInspectionCertification"
   ],
-  "featureCount": 253,
-  "candidateFeatureCount": 391,
-  "eliminatedSimilarFeatures": 138,
-  "evidenceCount": 959,
+  "featureCount": 257,
+  "candidateFeatureCount": 406,
+  "eliminatedSimilarFeatures": 149,
+  "evidenceCount": 972,
   "aiPageCount": 16,
   "sourceAIPageCount": 16,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
@@ -22,9 +22,9 @@
   "database": "database.sqlite",
   "databaseSeed": {
     "seededProjects": 1,
-    "seededTables": 21,
-    "seededRows": 315
+    "seededTables": 20,
+    "seededRows": 300
   },
-  "visibleFeatureCount": 45,
+  "visibleFeatureCount": 46,
   "featureVisibilityMode": "seeded-or-ai"
 }

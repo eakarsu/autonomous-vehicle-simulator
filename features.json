@@ -1,5 +1,94 @@
 [
   {
+    "name": "Adas Calibration Readiness",
+    "canonicalKey": "adas calibration readiness",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ADASCalibrationReadiness",
+      "/adas-calibration-readiness"
+    ],
+    "sourceProjects": [
+      "AIVehicleInspectionCertification"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIVehicleInspectionCertification",
+        "path": "client/src/App.js:159",
+        "route": "/adas-calibration-readiness",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIVehicleInspectionCertification",
+        "path": "client/src/components/Layout.js:25",
+        "route": "/adas-calibration-readiness",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIVehicleInspectionCertification",
+        "path": "client/src/pages/ADASCalibrationReadiness.js",
+        "route": "/ADASCalibrationReadiness",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "Agriculture",
+    "canonicalKey": "agriculture",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/agriculture"
+    ],
+    "sourceProjects": [
+      "AIAutonomousDroneOperations"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIAutonomousDroneOperations",
+        "path": "frontend/src/components/Sidebar.js:25",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAutonomousDroneOperations",
+        "path": "frontend/src/App.js:70",
+        "route": "/agriculture",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAutonomousDroneOperations",
+        "path": "frontend/src/components/Sidebar.js:25",
+        "route": "/agriculture",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAutonomousDroneOperations",
+        "path": "frontend/src/pages/Dashboard.js:14",
+        "route": "/agriculture",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
     "name": "AI Autonomy",
     "canonicalKey": "ai autonomy",
     "aliases": [
@@ -284,7 +373,7 @@
   },
   {
     "name": "AI Ground Systems Checklist Page",
-    "canonicalKey": "ai checklist ground systems",
+    "canonicalKey": "ai checklist ground system",
     "aliases": [],
     "kinds": [
       "page"
@@ -490,7 +579,7 @@
   },
   {
     "name": "AI Parts Price Monitor",
-    "canonicalKey": "ai monitor parts price",
+    "canonicalKey": "ai monitor part price",
     "aliases": [],
     "kinds": [
       "page"
@@ -1031,95 +1120,6 @@
     ]
   },
   {
-    "name": "Adas Calibration Readiness",
-    "canonicalKey": "adas calibration readiness",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/ADASCalibrationReadiness",
-      "/adas-calibration-readiness"
-    ],
-    "sourceProjects": [
-      "AIVehicleInspectionCertification"
-    ],
-    "consolidatedFromApps": [
-      "transportation-logistics/autonomous-vehicle-simulator"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIVehicleInspectionCertification",
-        "path": "client/src/App.js:159",
-        "route": "/adas-calibration-readiness",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIVehicleInspectionCertification",
-        "path": "client/src/components/Layout.js:25",
-        "route": "/adas-calibration-readiness",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIVehicleInspectionCertification",
-        "path": "client/src/pages/ADASCalibrationReadiness.js",
-        "route": "/ADASCalibrationReadiness",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      }
-    ]
-  },
-  {
-    "name": "Agriculture",
-    "canonicalKey": "agriculture",
-    "aliases": [],
-    "kinds": [
-      "navigation",
-      "page"
-    ],
-    "routes": [
-      "/agriculture"
-    ],
-    "sourceProjects": [
-      "AIAutonomousDroneOperations"
-    ],
-    "consolidatedFromApps": [
-      "transportation-logistics/autonomous-vehicle-simulator"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIAutonomousDroneOperations",
-        "path": "frontend/src/components/Sidebar.js:25",
-        "route": "",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAutonomousDroneOperations",
-        "path": "frontend/src/App.js:70",
-        "route": "/agriculture",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAutonomousDroneOperations",
-        "path": "frontend/src/components/Sidebar.js:25",
-        "route": "/agriculture",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAutonomousDroneOperations",
-        "path": "frontend/src/pages/Dashboard.js:14",
-        "route": "/agriculture",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      }
-    ]
-  },
-  {
     "name": "Ainhtsa Recall Lookup",
     "canonicalKey": "ainhtsa lookup recall",
     "aliases": [],
@@ -1336,27 +1336,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIFreightPricingAgent",
-        "path": "server/routes/marketIntelligence.js:49",
-        "route": "/analyze",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIWarehouseManager",
-        "path": "backend/src/routes/ai.js:89",
-        "route": "/analyze",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIWarehouseManager",
-        "path": "backend/src/routes/extensions.js:377",
-        "route": "/design-trends/analyze",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AISupplyChainReshoringAdvisor",
         "path": "backend/routes/buildVsPartner.js:46",
         "route": "/analyze",
@@ -1452,6 +1431,27 @@
         "path": "server/routes/supplierCollaborationPortal.js:46",
         "route": "/analyze",
         "originApp": "transportation-logistics/supply-chain-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFreightPricingAgent",
+        "path": "server/routes/marketIntelligence.js:49",
+        "route": "/analyze",
+        "originApp": "transportation-logistics/warehouse-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIWarehouseManager",
+        "path": "backend/src/routes/ai.js:89",
+        "route": "/analyze",
+        "originApp": "transportation-logistics/warehouse-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIWarehouseManager",
+        "path": "backend/src/routes/extensions.js:377",
+        "route": "/design-trends/analyze",
+        "originApp": "transportation-logistics/warehouse-manager"
       }
     ]
   },
@@ -1556,18 +1556,18 @@
     ],
     "evidence": [
       {
-        "kind": "api",
-        "sourceProject": "AILast-MileDeliveryOptimizer",
-        "path": "backend/routes/ai.js:337",
-        "route": "/anomaly-detection",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
         "kind": "navigation",
         "sourceProject": "AIAutonomousDroneOperations",
         "path": "frontend/src/components/Sidebar.js:43",
         "route": "",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "backend/routes/ai.js:340",
+        "route": "/anomaly-detection",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
       }
     ]
   },
@@ -1602,55 +1602,6 @@
       "transportation-logistics/warehouse-manager"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "frontend/src/components/Sidebar.js:46",
-        "route": "",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "frontend/src/App.js:107",
-        "route": "/audit-log",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "frontend/src/pages/Dashboard.js:23",
-        "route": "/audit-log",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIInventoryDroneOps",
-        "path": "frontend/src/components/Sidebar.js:40",
-        "route": "",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIInventoryDroneOps",
-        "path": "frontend/src/App.js:97",
-        "route": "/audit-log",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "frontend/src/pages/AuditLogPage.js",
-        "route": "/AuditLogPage",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIInventoryDroneOps",
-        "path": "frontend/src/pages/AuditLogPage.js",
-        "route": "/AuditLogPage",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
       {
         "kind": "navigation",
         "sourceProject": "AIAutonomousDroneOperations",
@@ -1701,6 +1652,62 @@
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       },
       {
+        "kind": "navigation",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/components/Sidebar.js:46",
+        "route": "",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/App.js:107",
+        "route": "/audit-log",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/pages/Dashboard.js:23",
+        "route": "/audit-log",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIInventoryDroneOps",
+        "path": "frontend/src/components/Sidebar.js:40",
+        "route": "",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIInventoryDroneOps",
+        "path": "frontend/src/App.js:97",
+        "route": "/audit-log",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/pages/AuditLogPage.js",
+        "route": "/AuditLogPage",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIInventoryDroneOps",
+        "path": "frontend/src/pages/AuditLogPage.js",
+        "route": "/AuditLogPage",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "hardware-supply-chain",
+        "path": "frontend/src/pages/AuditLogPage.tsx",
+        "route": "/AuditLogPage",
+        "originApp": "transportation-logistics/supply-chain-tracker"
+      },
+      {
         "kind": "page",
         "sourceProject": "AIAerospaceMRO",
         "path": "frontend/src/App.js:86",
@@ -1727,13 +1734,6 @@
         "path": "frontend/src/pages/Dashboard.js:30",
         "route": "/audit-log",
         "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "hardware-supply-chain",
-        "path": "frontend/src/pages/AuditLogPage.tsx",
-        "route": "/AuditLogPage",
-        "originApp": "transportation-logistics/supply-chain-tracker"
       }
     ]
   },
@@ -1778,15 +1778,44 @@
     ]
   },
   {
+    "name": "Baseline Id",
+    "canonicalKey": "baseline id",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/compare/:baselineId"
+    ],
+    "sourceProjects": [
+      "AIAutonomousVehicleSimulator"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAutonomousVehicleSimulator",
+        "path": "backend/src/routes/governedRuns.js:6",
+        "route": "/:id/compare/:baselineId",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
     "name": "Batteries",
     "canonicalKey": "battery",
-    "aliases": [],
+    "aliases": [
+      "Batteries Page"
+    ],
     "kinds": [
       "api",
       "navigation",
       "page"
     ],
     "routes": [
+      "/BatteriesPage",
       "/batteries"
     ],
     "sourceProjects": [
@@ -1798,27 +1827,6 @@
       "transportation-logistics/drone-delivery-last-mile"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "frontend/src/components/Sidebar.js:10",
-        "route": "",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "frontend/src/App.js:91",
-        "route": "/batteries",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "frontend/src/pages/Dashboard.js:7",
-        "route": "/batteries",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
       {
         "kind": "api",
         "sourceProject": "AIAutonomousDroneOperations",
@@ -1853,6 +1861,34 @@
         "path": "frontend/src/pages/Dashboard.js:26",
         "route": "/batteries",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/components/Sidebar.js:10",
+        "route": "",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/App.js:91",
+        "route": "/batteries",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/pages/Dashboard.js:7",
+        "route": "/batteries",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/pages/BatteriesPage.js",
+        "route": "/BatteriesPage",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
       }
     ]
   },
@@ -2013,7 +2049,7 @@
   },
   {
     "name": "Cf Insurance Claim Automation Generating Filings From Damage",
-    "canonicalKey": "automation cf claim damage filings from generating insurance",
+    "canonicalKey": "automation cf claim damage filing from generating insurance",
     "aliases": [],
     "kinds": [
       "page"
@@ -2039,7 +2075,7 @@
   },
   {
     "name": "Cf Insurance Claim Automation Generating Filings From Damage Photos",
-    "canonicalKey": "automation cf claim damage filings from generating insurance photo",
+    "canonicalKey": "automation cf claim damage filing from generating insurance photo",
     "aliases": [],
     "kinds": [
       "page"
@@ -2065,7 +2101,7 @@
   },
   {
     "name": "Cf Parts Price Monitoring With Bulk Order Timing",
-    "canonicalKey": "bulk cf monitoring order parts price timing with",
+    "canonicalKey": "bulk cf monitoring order part price timing with",
     "aliases": [],
     "kinds": [
       "page"
@@ -2091,7 +2127,7 @@
   },
   {
     "name": "Cf Parts Price Monitoring With Bulk Order Timing Recommendations",
-    "canonicalKey": "bulk cf monitoring order parts price recommendation timing with",
+    "canonicalKey": "bulk cf monitoring order part price recommendation timing with",
     "aliases": [],
     "kinds": [
       "page"
@@ -2117,7 +2153,7 @@
   },
   {
     "name": "Cf Predictive Maintenance Flagging Vehicles By Age Mileage",
-    "canonicalKey": "age by cf flagging maintenance mileage predictive vehicles",
+    "canonicalKey": "age by cf flagging maintenance mileage predictive vehicle",
     "aliases": [],
     "kinds": [
       "page"
@@ -2143,7 +2179,7 @@
   },
   {
     "name": "Cf Predictive Maintenance Flagging Vehicles By Age Mileage Condition",
-    "canonicalKey": "age by cf condition flagging maintenance mileage predictive vehicles",
+    "canonicalKey": "age by cf condition flagging maintenance mileage predictive vehicle",
     "aliases": [],
     "kinds": [
       "page"
@@ -2255,7 +2291,7 @@
   },
   {
     "name": "Cf Vision Based Damage Assessment From Photos With",
-    "canonicalKey": "assessment based cf damage from photos vision with",
+    "canonicalKey": "assessment based cf damage from photo vision with",
     "aliases": [],
     "kinds": [
       "page"
@@ -2281,7 +2317,7 @@
   },
   {
     "name": "Cf Vision Based Damage Assessment From Photos With Repair Cost",
-    "canonicalKey": "assessment based cf cost damage from photos repair vision with",
+    "canonicalKey": "assessment based cf cost damage from photo repair vision with",
     "aliases": [],
     "kinds": [
       "page"
@@ -2747,6 +2783,41 @@
         "originApp": "transportation-logistics/fleet-maintenance-scheduler"
       },
       {
+        "kind": "navigation",
+        "sourceProject": "AISupplyChainTracker",
+        "path": "client/src/components/Sidebar.js:16",
+        "route": "",
+        "originApp": "transportation-logistics/supply-chain-tracker"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISupplyChainTracker",
+        "path": "client/src/App.js:134",
+        "route": "/compliance",
+        "originApp": "transportation-logistics/supply-chain-tracker"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISupplyChainTracker",
+        "path": "client/src/components/Sidebar.js:16",
+        "route": "/compliance",
+        "originApp": "transportation-logistics/supply-chain-tracker"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISupplyChainTracker",
+        "path": "client/src/pages/Compliance.js",
+        "route": "/Compliance",
+        "originApp": "transportation-logistics/supply-chain-tracker"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISupplyChainTracker",
+        "path": "client/src/pages/Dashboard.js:52",
+        "route": "/compliance",
+        "originApp": "transportation-logistics/supply-chain-tracker"
+      },
+      {
         "kind": "page",
         "sourceProject": "AIAerospaceMRO",
         "path": "frontend/src/App.js:75",
@@ -2773,41 +2844,6 @@
         "path": "frontend/src/pages/Dashboard.js:19",
         "route": "/compliance",
         "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "client/src/components/Sidebar.js:16",
-        "route": "",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "client/src/App.js:130",
-        "route": "/compliance",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "client/src/components/Sidebar.js:16",
-        "route": "/compliance",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "client/src/pages/Compliance.js",
-        "route": "/Compliance",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "client/src/pages/Dashboard.js:52",
-        "route": "/compliance",
-        "originApp": "transportation-logistics/supply-chain-tracker"
       }
     ]
   },
@@ -3214,6 +3250,137 @@
     ]
   },
   {
+    "name": "Deliveries",
+    "canonicalKey": "delivery",
+    "aliases": [
+      "Deliveries Page",
+      "Delivery Views"
+    ],
+    "kinds": [
+      "api",
+      "model",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/:id/deliveries",
+      "/DeliveriesPage",
+      "/deliveries"
+    ],
+    "sourceProjects": [
+      "AIAutonomousDroneOperations",
+      "AIDroneDeliveryLastMile",
+      "AIInventoryDroneOps",
+      "AILast-MileDeliveryOptimizer",
+      "AISpaceportOps",
+      "AIVehicleInspectionCertification"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator",
+      "transportation-logistics/drone-delivery-last-mile"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIAutonomousDroneOperations",
+        "path": "frontend/src/components/Sidebar.js:24",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAutonomousDroneOperations",
+        "path": "frontend/src/App.js:69",
+        "route": "/deliveries",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAutonomousDroneOperations",
+        "path": "frontend/src/components/Sidebar.js:24",
+        "route": "/deliveries",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAutonomousDroneOperations",
+        "path": "frontend/src/pages/Dashboard.js:13",
+        "route": "/deliveries",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISpaceportOps",
+        "path": "backend/routes/webhooks.js:58",
+        "route": "/:id/deliveries",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVehicleInspectionCertification",
+        "path": "server/routes/inspectionWorkflow.js:5",
+        "route": "/:id/deliveries",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "backend/routes/webhooks.js:58",
+        "route": "/:id/deliveries",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInventoryDroneOps",
+        "path": "backend/routes/webhooks.js:58",
+        "route": "/:id/deliveries",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "model",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "backend/models/Delivery.js",
+        "route": "",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "frontend/src/components/Sidebar.js:12",
+        "route": "",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "frontend/src/App.js:75",
+        "route": "/deliveries",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "frontend/src/components/Sidebar.js:12",
+        "route": "/deliveries",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "frontend/src/pages/DeliveriesPage.js",
+        "route": "/DeliveriesPage",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "frontend/src/components/Sidebar.js:29",
+        "route": "",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      }
+    ]
+  },
+  {
     "name": "Dispatch",
     "canonicalKey": "dispatch",
     "aliases": [],
@@ -3237,13 +3404,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "backend/routes/feeds.js:60",
-        "route": "/notify/dispatch",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIAutonomousVehicleSimulator",
         "path": "backend/src/routes/extensions.js:223",
         "route": "/carla/dispatch",
@@ -3255,6 +3415,13 @@
         "path": "frontend/src/pages/ExtensionsPage.js:37",
         "route": "/ai/carla/dispatch",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "backend/routes/feeds.js:60",
+        "route": "/notify/dispatch",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
       }
     ]
   },
@@ -3311,6 +3478,27 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AIMaritimeShippingPortLogistics",
+        "path": "frontend/src/App.jsx:63",
+        "route": "/documents",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMaritimeShippingPortLogistics",
+        "path": "frontend/src/components/Layout.jsx:22",
+        "route": "/documents",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMaritimeShippingPortLogistics",
+        "path": "frontend/src/pages/Dashboard.jsx:152",
+        "route": "/documents",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AIAerospaceMRO",
         "path": "frontend/src/App.js:84",
         "route": "/documents",
@@ -3336,27 +3524,6 @@
         "path": "frontend/src/pages/Documents.js",
         "route": "/Documents",
         "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMaritimeShippingPortLogistics",
-        "path": "frontend/src/App.jsx:63",
-        "route": "/documents",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMaritimeShippingPortLogistics",
-        "path": "frontend/src/components/Layout.jsx:22",
-        "route": "/documents",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMaritimeShippingPortLogistics",
-        "path": "frontend/src/pages/Dashboard.jsx:152",
-        "route": "/documents",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
       }
     ]
   },
@@ -3415,7 +3582,7 @@
       {
         "kind": "api",
         "sourceProject": "AIAutonomousVehicleSimulator",
-        "path": "backend/src/server.js:83",
+        "path": "backend/src/server.js:84",
         "route": "/api/driving-scenarios",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       },
@@ -3654,95 +3821,6 @@
     ]
   },
   {
-    "name": "Export",
-    "canonicalKey": "export",
-    "aliases": [
-      "Export Page",
-      "Exports"
-    ],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/ExportPage",
-      "/ai/av-platform/export",
-      "/export",
-      "export",
-      "exports"
-    ],
-    "sourceProjects": [
-      "AIAnalyzetelematics",
-      "AIAutonomousVehicleSimulator",
-      "electronics-in-space",
-      "hardware-supply-chain"
-    ],
-    "consolidatedFromApps": [
-      "transportation-logistics/autonomous-vehicle-simulator",
-      "transportation-logistics/fleet-maintenance-scheduler",
-      "transportation-logistics/space-debris-tracker",
-      "transportation-logistics/supply-chain-tracker"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIAutonomousVehicleSimulator",
-        "path": "backend/src/routes/crud.js:79",
-        "route": "/export",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutonomousVehicleSimulator",
-        "path": "backend/src/routes/oddCoverageMatrix.js:88",
-        "route": "/export",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAutonomousVehicleSimulator",
-        "path": "frontend/src/pages/ExtensionsPage.js:57",
-        "route": "/ai/av-platform/export",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "electronics-in-space",
-        "path": "frontend/src/App.tsx:79",
-        "route": "exports",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/drivers.js:147",
-        "route": "/export",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/vehicles.js:138",
-        "route": "/export",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "hardware-supply-chain",
-        "path": "frontend/src/App.tsx:75",
-        "route": "export",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "hardware-supply-chain",
-        "path": "frontend/src/pages/ExportPage.tsx",
-        "route": "/ExportPage",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      }
-    ]
-  },
-  {
     "name": "Extensions",
     "canonicalKey": "extension",
     "aliases": [
@@ -3789,6 +3867,13 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AIAutonomousVehicleSimulator",
+        "path": "frontend/src/pages/ExtensionsPage.js",
+        "route": "/ExtensionsPage",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AIParkingManagementPlatform",
         "path": "client/src/App.js:111",
         "route": "/extensions",
@@ -3800,21 +3885,14 @@
         "path": "client/src/pages/Extensions.js",
         "route": "/Extensions",
         "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAutonomousVehicleSimulator",
-        "path": "frontend/src/pages/ExtensionsPage.js",
-        "route": "/ExtensionsPage",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       }
     ]
   },
   {
-    "name": "Favorites",
+    "name": "Favorites Page",
     "canonicalKey": "favorite",
     "aliases": [
-      "Favorites Page"
+      "Favorites"
     ],
     "kinds": [
       "page"
@@ -3884,17 +3962,17 @@
       },
       {
         "kind": "page",
-        "sourceProject": "AISupplyChainReshoringAdvisor",
-        "path": "frontend/src/pages/FeaturePage.js",
-        "route": "/FeaturePage",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIMaritimeShippingPortLogistics",
         "path": "frontend/src/pages/FeaturePage.jsx",
         "route": "/FeaturePage",
         "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISupplyChainReshoringAdvisor",
+        "path": "frontend/src/pages/FeaturePage.js",
+        "route": "/FeaturePage",
+        "originApp": "transportation-logistics/supply-chain-tracker"
       }
     ]
   },
@@ -4166,7 +4244,7 @@
       {
         "kind": "api",
         "sourceProject": "AIAutonomousDroneOperations",
-        "path": "backend/server.js:80",
+        "path": "backend/server.js:81",
         "route": "/api/flight-plans",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       },
@@ -4909,7 +4987,7 @@
   },
   {
     "name": "Gap No Integration With Oem Recall Databases Only",
-    "canonicalKey": "databases gap integration no oem only recall with",
+    "canonicalKey": "database gap integration no oem only recall with",
     "aliases": [],
     "kinds": [
       "page"
@@ -4935,7 +5013,7 @@
   },
   {
     "name": "Gap No Integration With Oem Recall Databases Only Manual",
-    "canonicalKey": "databases gap integration manual no oem only recall with",
+    "canonicalKey": "database gap integration manual no oem only recall with",
     "aliases": [],
     "kinds": [
       "page"
@@ -4961,7 +5039,7 @@
   },
   {
     "name": "Gap No Parts Supplier Integration",
-    "canonicalKey": "gap integration no parts supplier",
+    "canonicalKey": "gap integration no part supplier",
     "aliases": [],
     "kinds": [
       "page"
@@ -5063,7 +5141,7 @@
   },
   {
     "name": "Gap No Webhooks Notifications For Recall Events",
-    "canonicalKey": "event for gap no notifications recall webhooks",
+    "canonicalKey": "event for gap no notification recall webhook",
     "aliases": [],
     "kinds": [
       "page"
@@ -5097,7 +5175,7 @@
   },
   {
     "name": "Gap Notifications Subsystem",
-    "canonicalKey": "gap notifications subsystem",
+    "canonicalKey": "gap notification subsystem",
     "aliases": [],
     "kinds": [
       "page"
@@ -5133,23 +5211,23 @@
       },
       {
         "kind": "page",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "frontend/src/pages/GapNotificationsSubsystem.jsx",
-        "route": "/GapNotificationsSubsystem",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIAnalyzetelematics",
         "path": "frontend/src/pages/GapNotificationsSubsystem.js",
         "route": "/GapNotificationsSubsystem",
         "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "frontend/src/pages/GapNotificationsSubsystem.jsx",
+        "route": "/GapNotificationsSubsystem",
+        "originApp": "transportation-logistics/space-debris-tracker"
       }
     ]
   },
   {
     "name": "Gap Physics Simulation Engine Bridge",
-    "canonicalKey": "bridge engine gap physics simulation",
+    "canonicalKey": "bridge engine gap physic simulation",
     "aliases": [],
     "kinds": [
       "page"
@@ -5651,16 +5729,13 @@
   },
   {
     "name": "Ground Systems",
-    "canonicalKey": "ground system",
-    "aliases": [
-      "Ground Systems Page"
-    ],
+    "canonicalKey": "ground",
+    "aliases": [],
     "kinds": [
       "navigation",
       "page"
     ],
     "routes": [
-      "/GroundSystemsPage",
       "/ground-systems"
     ],
     "sourceProjects": [
@@ -5690,19 +5765,12 @@
         "path": "frontend/src/pages/Dashboard.js:24",
         "route": "/ground-systems",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISpaceportOps",
-        "path": "frontend/src/pages/GroundSystemsPage.js",
-        "route": "/GroundSystemsPage",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       }
     ]
   },
   {
     "name": "Ground Systems Checklist",
-    "canonicalKey": "checklist ground systems",
+    "canonicalKey": "checklist ground system",
     "aliases": [],
     "kinds": [
       "page"
@@ -5729,6 +5797,32 @@
         "sourceProject": "AISpaceportOps",
         "path": "frontend/src/pages/Dashboard.js:36",
         "route": "/ai/ground-systems-checklist",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "Ground Systems Page",
+    "canonicalKey": "ground system",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GroundSystemsPage"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/GroundSystemsPage.js",
+        "route": "/GroundSystemsPage",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       }
     ]
@@ -5793,9 +5887,7 @@
       "AISupplyChainTracker",
       "AIVehicleInspectionCertification",
       "AIWarehouseManager",
-      "electronics-in-space",
-      "hardware-supply-chain",
-      "movingCompany"
+      "electronics-in-space"
     ],
     "consolidatedFromApps": [
       "transportation-logistics/autonomous-vehicle-simulator",
@@ -5807,27 +5899,6 @@
       "transportation-logistics/warehouse-manager"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "backend/server.js:47",
-        "route": "/api/health",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIInventoryDroneOps",
-        "path": "backend/server.js:19",
-        "route": "/api/health",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILast-MileDeliveryOptimizer",
-        "path": "backend/server.js:70",
-        "route": "/api/health",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
       {
         "kind": "api",
         "sourceProject": "AIAutonomousDroneOperations",
@@ -5950,7 +6021,7 @@
       {
         "kind": "api",
         "sourceProject": "AIAutonomousDroneOperations",
-        "path": "backend/server.js:51",
+        "path": "backend/server.js:52",
         "route": "/api/health",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       },
@@ -6062,247 +6133,44 @@
       {
         "kind": "api",
         "sourceProject": "AIAutonomousVehicleSimulator",
-        "path": "backend/src/server.js:47",
+        "path": "backend/src/server.js:48",
         "route": "/api/health",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       },
       {
         "kind": "api",
         "sourceProject": "AISpaceportOps",
-        "path": "backend/server.js:46",
+        "path": "backend/server.js:48",
         "route": "/api/health",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       },
       {
         "kind": "api",
         "sourceProject": "AIVehicleInspectionCertification",
-        "path": "server/index.js:42",
+        "path": "server/index.js:25",
         "route": "/api/health",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/adsbFeed.js:10",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/emergencySim.js:10",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/faaIataBridge.js:10",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/gap_ai_passenger_experience_optimization_crowd.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/gap_ai_ramp_vehicle_routing_optimization.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/gap_ai_revenue_management_dynamic_gate.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/gap_ai_weather_rerouting_beyond_basic.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/gap_customer_facing_flight_status_portal.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/gap_emergency_response_coordination_module_fire.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/gap_outbound_webhooks_airline_catering_systems.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/gap_passenger_flow_iot_sensor_integration.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/gap_real_time_ramp_control_tarmac.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/noiseImpact.js:10",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/routes/passengerExperience.js:10",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "backend/src/server.js:42",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "backend/server.js:48",
         "route": "/api/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/carrierSubmit.js:10",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/cvDamage.js:10",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/gap_ai_labor_time_benchmark_estimator.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/gap_ai_paint_interior_degradation_age.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/gap_ai_parts_substitution_recommendation.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/gap_ai_total_loss_vs_repairable.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/gap_customer_facing_repair_status_portal.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/gap_insurance_carrier_api_submission_direct.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/gap_live_vin_decoder_integration_exact.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/gap_notifications_subsystem.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/gap_real_time_parts_availability_supplier.js:90",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/oemInsuranceBridge.js:10",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/partsPricingFeed.js:10",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/routes/recycledMarketplace.js:10",
-        "route": "/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutoBodyCollisionEstimator",
-        "path": "backend/server.js:55",
+        "sourceProject": "AIInventoryDroneOps",
+        "path": "backend/server.js:19",
         "route": "/api/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
       },
       {
         "kind": "api",
-        "sourceProject": "AISpaceDebrisTracker",
-        "path": "backend/src/server.js:49",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "backend/server.js:71",
         "route": "/api/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "electronics-in-space",
-        "path": "backend/server.js:50",
-        "route": "/api/health",
-        "originApp": "transportation-logistics/space-debris-tracker"
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
       },
       {
         "kind": "api",
@@ -6531,14 +6399,14 @@
       {
         "kind": "api",
         "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/server.js:64",
+        "path": "backend/server.js:60",
         "route": "/api/health",
         "originApp": "transportation-logistics/fleet-maintenance-scheduler"
       },
       {
         "kind": "api",
         "sourceProject": "AIFleetElectrificationPlanner",
-        "path": "backend/src/index.js:55",
+        "path": "backend/src/index.js:59",
         "route": "/api/health",
         "originApp": "transportation-logistics/fleet-maintenance-scheduler"
       },
@@ -6548,6 +6416,258 @@
         "path": "backend/server.js:84",
         "route": "/api/health",
         "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMaritimeShippingPortLogistics",
+        "path": "backend/server.js:55",
+        "route": "/api/health",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/adsbFeed.js:10",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/emergencySim.js:10",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/faaIataBridge.js:10",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/gap_ai_passenger_experience_optimization_crowd.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/gap_ai_ramp_vehicle_routing_optimization.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/gap_ai_revenue_management_dynamic_gate.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/gap_ai_weather_rerouting_beyond_basic.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/gap_customer_facing_flight_status_portal.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/gap_emergency_response_coordination_module_fire.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/gap_outbound_webhooks_airline_catering_systems.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/gap_passenger_flow_iot_sensor_integration.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/gap_real_time_ramp_control_tarmac.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/noiseImpact.js:10",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/routes/passengerExperience.js:10",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAirportAirTrafficOperations",
+        "path": "backend/src/server.js:46",
+        "route": "/api/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/carrierSubmit.js:10",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/cvDamage.js:10",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/gap_ai_labor_time_benchmark_estimator.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/gap_ai_paint_interior_degradation_age.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/gap_ai_parts_substitution_recommendation.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/gap_ai_total_loss_vs_repairable.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/gap_customer_facing_repair_status_portal.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/gap_insurance_carrier_api_submission_direct.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/gap_live_vin_decoder_integration_exact.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/gap_notifications_subsystem.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/gap_real_time_parts_availability_supplier.js:90",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/oemInsuranceBridge.js:10",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/partsPricingFeed.js:10",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/routes/recycledMarketplace.js:10",
+        "route": "/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutoBodyCollisionEstimator",
+        "path": "backend/server.js:57",
+        "route": "/api/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISpaceDebrisTracker",
+        "path": "backend/src/server.js:42",
+        "route": "/api/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "electronics-in-space",
+        "path": "backend/server.js:9",
+        "route": "/api/health",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIParkingManagementPlatform",
+        "path": "server/index.js:48",
+        "route": "/api/health",
+        "originApp": "transportation-logistics/supply-chain-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISupplyChainReshoringAdvisor",
+        "path": "backend/server.js:26",
+        "route": "/api/health",
+        "originApp": "transportation-logistics/supply-chain-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISupplyChainTracker",
+        "path": "server/index.js:57",
+        "route": "/api/health",
+        "originApp": "transportation-logistics/supply-chain-tracker"
       },
       {
         "kind": "api",
@@ -6664,65 +6784,23 @@
       {
         "kind": "api",
         "sourceProject": "AIFreightPricingAgent",
-        "path": "server/index.js:47",
+        "path": "server/index.js:31",
         "route": "/api/health",
         "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
         "sourceProject": "AISatelliteImageryAnalyzer",
-        "path": "backend/server.js:59",
+        "path": "backend/server.js:20",
         "route": "/api/health",
         "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
         "sourceProject": "AIWarehouseManager",
-        "path": "backend/src/index.js:66",
+        "path": "backend/src/index.js:30",
         "route": "/api/health",
         "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/index.js:48",
-        "route": "/api/health",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainReshoringAdvisor",
-        "path": "backend/server.js:30",
-        "route": "/api/health",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "server/index.js:71",
-        "route": "/api/health",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "hardware-supply-chain",
-        "path": "backend/server.js:57",
-        "route": "/api/health",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIMaritimeShippingPortLogistics",
-        "path": "backend/server.js:50",
-        "route": "/api/health",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/index.js:81",
-        "route": "/api/health",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
       }
     ]
   },
@@ -6845,19 +6923,22 @@
       "/InspectionDetail",
       "/InspectionsPage",
       "/inspection",
-      "/inspections"
+      "/inspections",
+      "/lots/:id/inspections"
     ],
     "sourceProjects": [
       "AIAutonomousDroneOperations",
       "AIFleetMaintenanceScheduler",
       "AIMaritimeShippingPortLogistics",
       "AIVehicleInspectionCertification",
+      "electronics-in-space",
       "hardware-supply-chain"
     ],
     "consolidatedFromApps": [
       "transportation-logistics/autonomous-vehicle-simulator",
       "transportation-logistics/fleet-maintenance-scheduler",
       "transportation-logistics/maritime-shipping-port-logistics",
+      "transportation-logistics/space-debris-tracker",
       "transportation-logistics/supply-chain-tracker"
     ],
     "evidence": [
@@ -6919,6 +7000,13 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AIVehicleInspectionCertification",
+        "path": "client/src/pages/InspectionsPage.js",
+        "route": "/InspectionsPage",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AIFleetMaintenanceScheduler",
         "path": "frontend/src/App.jsx:159",
         "route": "/inspections",
@@ -6930,20 +7018,6 @@
         "path": "frontend/src/App.jsx:73",
         "route": "/inspections",
         "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "hardware-supply-chain",
-        "path": "backend/routes/aql.js:110",
-        "route": "/inspection",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "hardware-supply-chain",
-        "path": "backend/routes/aql.js:139",
-        "route": "/inspection",
-        "originApp": "transportation-logistics/supply-chain-tracker"
       },
       {
         "kind": "page",
@@ -6967,11 +7041,25 @@
         "originApp": "transportation-logistics/maritime-shipping-port-logistics"
       },
       {
-        "kind": "page",
-        "sourceProject": "AIVehicleInspectionCertification",
-        "path": "client/src/pages/InspectionsPage.js",
-        "route": "/InspectionsPage",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+        "kind": "api",
+        "sourceProject": "electronics-in-space",
+        "path": "backend/routes/quality.js:32",
+        "route": "/lots/:id/inspections",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "hardware-supply-chain",
+        "path": "backend/routes/aql.js:110",
+        "route": "/inspection",
+        "originApp": "transportation-logistics/supply-chain-tracker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "hardware-supply-chain",
+        "path": "backend/routes/aql.js:139",
+        "route": "/inspection",
+        "originApp": "transportation-logistics/supply-chain-tracker"
       }
     ]
   },
@@ -7291,12 +7379,15 @@
   {
     "name": "Launch Windows",
     "canonicalKey": "launch window",
-    "aliases": [],
+    "aliases": [
+      "Launch Windows Page"
+    ],
     "kinds": [
       "navigation",
       "page"
     ],
     "routes": [
+      "/LaunchWindowsPage",
       "/launch-windows"
     ],
     "sourceProjects": [
@@ -7331,15 +7422,22 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/LaunchWindowsPage.js",
+        "route": "/LaunchWindowsPage",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AISpaceDebrisTracker",
-        "path": "frontend/src/App.jsx:140",
+        "path": "frontend/src/App.jsx:139",
         "route": "/launch-windows",
         "originApp": "transportation-logistics/space-debris-tracker"
       },
       {
         "kind": "page",
         "sourceProject": "AISpaceDebrisTracker",
-        "path": "frontend/src/App.jsx:67",
+        "path": "frontend/src/App.jsx:66",
         "route": "/launch-windows",
         "originApp": "transportation-logistics/space-debris-tracker"
       },
@@ -7348,6 +7446,13 @@
         "sourceProject": "AISpaceDebrisTracker",
         "path": "frontend/src/pages/Dashboard.jsx:7",
         "route": "/launch-windows",
+        "originApp": "transportation-logistics/space-debris-tracker"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISpaceDebrisTracker",
+        "path": "frontend/src/pages/LaunchWindowsPage.jsx",
+        "route": "/LaunchWindowsPage",
         "originApp": "transportation-logistics/space-debris-tracker"
       }
     ]
@@ -7772,27 +7877,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "backend/routes/ai.js:416",
-        "route": "/mission-brief",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "frontend/src/App.js:111",
-        "route": "/ai/mission-brief",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "frontend/src/pages/Dashboard.js:27",
-        "route": "/ai/mission-brief",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIAutonomousDroneOperations",
         "path": "backend/routes/customViews.js:153",
         "route": "/mission-brief",
@@ -7811,6 +7895,27 @@
         "path": "frontend/src/pages/Dashboard.js:32",
         "route": "/ai/mission-brief",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "backend/routes/ai.js:416",
+        "route": "/mission-brief",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/App.js:111",
+        "route": "/ai/mission-brief",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/pages/Dashboard.js:27",
+        "route": "/ai/mission-brief",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
       }
     ]
   },
@@ -7932,6 +8037,32 @@
         "sourceProject": "AIAutonomousDroneOperations",
         "path": "backend/routes/ai.js:10",
         "route": "/mission-planner",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "Mission Readiness",
+    "canonicalKey": "mission readiness",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/mission-readiness"
+    ],
+    "sourceProjects": [
+      "AIAutonomousDroneOperations"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAutonomousDroneOperations",
+        "path": "backend/routes/runtimeAi.js:9",
+        "route": "/mission-readiness",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       }
     ]
@@ -8143,7 +8274,7 @@
   },
   {
     "name": "Parts Inventory",
-    "canonicalKey": "inventory parts",
+    "canonicalKey": "inventory part",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -8167,7 +8298,7 @@
   },
   {
     "name": "Parts Price Monitor",
-    "canonicalKey": "monitor parts price",
+    "canonicalKey": "monitor part price",
     "aliases": [],
     "kinds": [
       "api",
@@ -8326,7 +8457,7 @@
   },
   {
     "name": "Payloads Sensors",
-    "canonicalKey": "payloads sensor",
+    "canonicalKey": "payload sensor",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -8351,12 +8482,15 @@
   {
     "name": "Pilots",
     "canonicalKey": "pilot",
-    "aliases": [],
+    "aliases": [
+      "Pilots Page"
+    ],
     "kinds": [
       "navigation",
       "page"
     ],
     "routes": [
+      "/PilotsPage",
       "/pilots"
     ],
     "sourceProjects": [
@@ -8368,27 +8502,6 @@
       "transportation-logistics/drone-delivery-last-mile"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "frontend/src/components/Sidebar.js:35",
-        "route": "",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "frontend/src/App.js:98",
-        "route": "/pilots",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "frontend/src/pages/Dashboard.js:14",
-        "route": "/pilots",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
       {
         "kind": "navigation",
         "sourceProject": "AIAutonomousDroneOperations",
@@ -8416,6 +8529,34 @@
         "path": "frontend/src/pages/Dashboard.js:25",
         "route": "/pilots",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/components/Sidebar.js:35",
+        "route": "",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/App.js:98",
+        "route": "/pilots",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/pages/Dashboard.js:14",
+        "route": "/pilots",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "frontend/src/pages/PilotsPage.js",
+        "route": "/PilotsPage",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
       }
     ]
   },
@@ -9093,48 +9234,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIInventoryDroneOps",
-        "path": "backend/routes/crossDcReconciliation.js:11",
-        "route": "/run",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILast-MileDeliveryOptimizer",
-        "path": "backend/routes/anomaly-stream.js:63",
-        "route": "/run",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILast-MileDeliveryOptimizer",
-        "path": "backend/routes/carbon-tracker.js:63",
-        "route": "/run",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILast-MileDeliveryOptimizer",
-        "path": "backend/routes/customer-comms-agent.js:63",
-        "route": "/run",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILast-MileDeliveryOptimizer",
-        "path": "backend/routes/delivery-planner-agent.js:63",
-        "route": "/run",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILast-MileDeliveryOptimizer",
-        "path": "backend/routes/vision-pod.js:63",
-        "route": "/run",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIAutonomousDroneOperations",
         "path": "backend/routes/dronePlatformBridge.js:15",
         "route": "/run",
@@ -9429,6 +9528,370 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AIInventoryDroneOps",
+        "path": "backend/routes/crossDcReconciliation.js:11",
+        "route": "/run",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "backend/routes/anomaly-stream.js:63",
+        "route": "/run",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "backend/routes/carbon-tracker.js:63",
+        "route": "/run",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "backend/routes/customer-comms-agent.js:63",
+        "route": "/run",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "backend/routes/delivery-planner-agent.js:63",
+        "route": "/run",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "backend/routes/vision-pod.js:63",
+        "route": "/run",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/avReadiness.js:15",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/driverMobile.js:15",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/gap_ai_driver_coaching_content_behavior.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/gap_ai_load_optimization_weight_cargo.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/gap_ai_predictive_accident_prevention.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/gap_ai_streaming_telematics_anomaly_detection.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/gap_customer_proof_delivery_photos_signatures.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/gap_eld_electronic_logging_device_compliance.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/gap_mobile_driver_app.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/gap_notifications_subsystem.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/gap_outbound_webhooks.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/gap_vehicle_obd_ii_can_bus.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/mlFuel.js:15",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/telematicsBridge.js:15",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAnalyzetelematics",
+        "path": "backend/routes/telematicsStream.js:15",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/caregiverAssist.js:15",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/ehrBridge.js:15",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/gap_ai_nurse_skill_matching_visit.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/gap_ai_patient_outcome_deterioration_prediction.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/gap_ai_travel_time_optimization_real.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/gap_caregiver_family_feedback_collection.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/gap_limited_ai_show_prediction.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/gap_limited_mobile_nurse_app_go.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/gap_live_ehr_integration_patient_history.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/gap_outbound_webhooks.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/gap_telemedicine_video_capability.js:94",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/outcomePredict.js:15",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/patientRiskStream.js:15",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomateroutingmedical",
+        "path": "backend/routes/trafficRoute.js:15",
+        "route": "/run",
+        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMaritimeShippingPortLogistics",
+        "path": "backend/routes/agentic-customs-clearing.js:63",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMaritimeShippingPortLogistics",
+        "path": "backend/routes/demurrage-prediction.js:63",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMaritimeShippingPortLogistics",
+        "path": "backend/routes/incident-investigation.js:63",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMaritimeShippingPortLogistics",
+        "path": "backend/routes/port-optimization-stream.js:63",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMaritimeShippingPortLogistics",
+        "path": "backend/routes/supply-chain-coordination.js:63",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "movingCompany",
+        "path": "backend/src/routes/gap_no_ar_pre_move_visualization.js:82",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "movingCompany",
+        "path": "backend/src/routes/gap_no_customer_portal_move_tracker.js:82",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "movingCompany",
+        "path": "backend/src/routes/gap_no_customer_sentiment_dashboard_across_surveys.js:82",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "movingCompany",
+        "path": "backend/src/routes/gap_no_insurance_liability_policy_management.js:82",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "movingCompany",
+        "path": "backend/src/routes/gap_no_market_rate_pricing_optimizer.js:82",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "movingCompany",
+        "path": "backend/src/routes/gap_no_multi_vendor_logistics_marketplace.js:82",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "movingCompany",
+        "path": "backend/src/routes/gap_no_payment_processing_module_stripe_ach.js:82",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "movingCompany",
+        "path": "backend/src/routes/gap_no_pre_move_questionnaire_deep_analysis.js:82",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "movingCompany",
+        "path": "backend/src/routes/gap_no_predictive_demand_pre_positioning_of.js:82",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "movingCompany",
+        "path": "backend/src/routes/gap_no_real_time_gps_tracking_for.js:82",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "movingCompany",
+        "path": "backend/src/routes/gap_no_vision_based_damage_assessment_from.js:82",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "movingCompany",
+        "path": "backend/src/routes/gap_no_webhooks_for_partners_storage_packing.js:82",
+        "route": "/run",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIAirportAirTrafficOperations",
         "path": "backend/src/routes/adsbFeed.js:15",
         "route": "/run",
@@ -9688,314 +10151,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/avReadiness.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/driverMobile.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/gap_ai_driver_coaching_content_behavior.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/gap_ai_load_optimization_weight_cargo.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/gap_ai_predictive_accident_prevention.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/gap_ai_streaming_telematics_anomaly_detection.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/gap_customer_proof_delivery_photos_signatures.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/gap_eld_electronic_logging_device_compliance.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/gap_mobile_driver_app.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/gap_notifications_subsystem.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/gap_outbound_webhooks.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/gap_vehicle_obd_ii_can_bus.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/mlFuel.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/telematicsBridge.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAnalyzetelematics",
-        "path": "backend/routes/telematicsStream.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/caregiverAssist.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/ehrBridge.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/gap_ai_nurse_skill_matching_visit.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/gap_ai_patient_outcome_deterioration_prediction.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/gap_ai_travel_time_optimization_real.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/gap_caregiver_family_feedback_collection.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/gap_limited_ai_show_prediction.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/gap_limited_mobile_nurse_app_go.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/gap_live_ehr_integration_patient_history.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/gap_outbound_webhooks.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/gap_telemedicine_video_capability.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/outcomePredict.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/patientRiskStream.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomateroutingmedical",
-        "path": "backend/routes/trafficRoute.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/fleet-maintenance-scheduler"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/acarsStream.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/gap_ai_cross_fleet_asset_reallocation.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/gap_ai_hangar_bay_assignment_optimization.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/gap_ai_supply_chain_disruption_forecasting.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/gap_ai_training_path_recommendation_technician.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/gap_customer_portal_fleet_owner_visibility.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/gap_environmental_impact_carbon_footprint_reporting.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/gap_mobile_technician_app_job_reference.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/gap_notifications_subsystem_visible.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/gap_oem_data_bridge_boeing_airbus.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/gap_outbound_webhooks.js:94",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/oemBridge.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/regulatoryFeed.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/supplyRisk.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAerospaceMRO",
-        "path": "backend/routes/vrTraining.js:15",
-        "route": "/run",
-        "originApp": "transportation-logistics/warehouse-manager"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIParkingManagementPlatform",
         "path": "server/routes/customFeat01_AutonomousPricingEngine.js:85",
         "route": "/run",
@@ -10102,7 +10257,7 @@
       {
         "kind": "api",
         "sourceProject": "AISupplyChainReshoringAdvisor",
-        "path": "backend/routes/aiAdvanced.js:151",
+        "path": "backend/routes/aiAdvanced.js:149",
         "route": "/scenarios/:id/run",
         "originApp": "transportation-logistics/supply-chain-tracker"
       },
@@ -10248,122 +10403,108 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIMaritimeShippingPortLogistics",
-        "path": "backend/routes/agentic-customs-clearing.js:63",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/acarsStream.js:15",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIMaritimeShippingPortLogistics",
-        "path": "backend/routes/demurrage-prediction.js:63",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/gap_ai_cross_fleet_asset_reallocation.js:94",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIMaritimeShippingPortLogistics",
-        "path": "backend/routes/incident-investigation.js:63",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/gap_ai_hangar_bay_assignment_optimization.js:94",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIMaritimeShippingPortLogistics",
-        "path": "backend/routes/port-optimization-stream.js:63",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/gap_ai_supply_chain_disruption_forecasting.js:94",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIMaritimeShippingPortLogistics",
-        "path": "backend/routes/supply-chain-coordination.js:63",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/gap_ai_training_path_recommendation_technician.js:94",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/routes/gap_no_ar_pre_move_visualization.js:82",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/gap_customer_portal_fleet_owner_visibility.js:94",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/routes/gap_no_customer_portal_move_tracker.js:82",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/gap_environmental_impact_carbon_footprint_reporting.js:94",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/routes/gap_no_customer_sentiment_dashboard_across_surveys.js:82",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/gap_mobile_technician_app_job_reference.js:94",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/routes/gap_no_insurance_liability_policy_management.js:82",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/gap_notifications_subsystem_visible.js:94",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/routes/gap_no_market_rate_pricing_optimizer.js:82",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/gap_oem_data_bridge_boeing_airbus.js:94",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/routes/gap_no_multi_vendor_logistics_marketplace.js:82",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/gap_outbound_webhooks.js:94",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/routes/gap_no_payment_processing_module_stripe_ach.js:82",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/oemBridge.js:15",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/routes/gap_no_pre_move_questionnaire_deep_analysis.js:82",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/regulatoryFeed.js:15",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/routes/gap_no_predictive_demand_pre_positioning_of.js:82",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/supplyRisk.js:15",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/routes/gap_no_real_time_gps_tracking_for.js:82",
+        "sourceProject": "AIAerospaceMRO",
+        "path": "backend/routes/vrTraining.js:15",
         "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/routes/gap_no_vision_based_damage_assessment_from.js:82",
-        "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/routes/gap_no_webhooks_for_partners_storage_packing.js:82",
-        "route": "/run",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "originApp": "transportation-logistics/warehouse-manager"
       }
     ]
   },
@@ -10466,7 +10607,7 @@
   },
   {
     "name": "Safety Metrics Dashboard",
-    "canonicalKey": "dashboard metrics safety",
+    "canonicalKey": "dashboard metric safety",
     "aliases": [],
     "kinds": [
       "page"
@@ -10846,6 +10987,32 @@
     ]
   },
   {
+    "name": "Simulation Readiness",
+    "canonicalKey": "readiness simulation",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/simulation-readiness"
+    ],
+    "sourceProjects": [
+      "AIAutonomousVehicleSimulator"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAutonomousVehicleSimulator",
+        "path": "backend/src/routes/runtimeAi.js:9",
+        "route": "/simulation-readiness",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
     "name": "Simulation Results",
     "canonicalKey": "result simulation",
     "aliases": [],
@@ -10867,7 +11034,7 @@
       {
         "kind": "api",
         "sourceProject": "AIAutonomousVehicleSimulator",
-        "path": "backend/src/server.js:87",
+        "path": "backend/src/server.js:88",
         "route": "/api/simulation-results",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       },
@@ -10998,6 +11165,7 @@
       "/rideshare/status",
       "/smarthome/status",
       "/status",
+      "/suppliers/:id/status",
       "/update-status",
       "/vendor/status"
     ],
@@ -11010,6 +11178,7 @@
       "AIParkingManagementPlatform",
       "AISatelliteImageryAnalyzer",
       "AIWarehouseManager",
+      "electronics-in-space",
       "hardware-supply-chain",
       "movingCompany"
     ],
@@ -11017,31 +11186,11 @@
       "transportation-logistics/autonomous-vehicle-simulator",
       "transportation-logistics/drone-delivery-last-mile",
       "transportation-logistics/maritime-shipping-port-logistics",
+      "transportation-logistics/space-debris-tracker",
       "transportation-logistics/supply-chain-tracker",
       "transportation-logistics/warehouse-manager"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "backend/routes/feeds.js:70",
-        "route": "/status",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIInventoryDroneOps",
-        "path": "backend/routes/wmsLive.js:26",
-        "route": "/status",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILast-MileDeliveryOptimizer",
-        "path": "backend/routes/returns.js:134",
-        "route": "/:id/status",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
       {
         "kind": "api",
         "sourceProject": "AIAutonomousDroneOperations",
@@ -11086,17 +11235,38 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIWarehouseManager",
-        "path": "backend/src/routes/extensions.js:287",
-        "route": "/smarthome/status",
-        "originApp": "transportation-logistics/warehouse-manager"
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "backend/routes/feeds.js:70",
+        "route": "/status",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
       },
       {
         "kind": "api",
-        "sourceProject": "AISatelliteImageryAnalyzer",
-        "path": "backend/routes/batch.js:27",
-        "route": "/update-status",
-        "originApp": "transportation-logistics/warehouse-manager"
+        "sourceProject": "AIInventoryDroneOps",
+        "path": "backend/routes/wmsLive.js:26",
+        "route": "/status",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AILast-MileDeliveryOptimizer",
+        "path": "backend/routes/returns.js:134",
+        "route": "/:id/status",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "movingCompany",
+        "path": "backend/src/routes/jobs.js:212",
+        "route": "/:id/status",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "electronics-in-space",
+        "path": "backend/routes/quality.js:24",
+        "route": "/suppliers/:id/status",
+        "originApp": "transportation-logistics/space-debris-tracker"
       },
       {
         "kind": "api",
@@ -11114,10 +11284,17 @@
       },
       {
         "kind": "api",
-        "sourceProject": "movingCompany",
-        "path": "backend/src/routes/jobs.js:212",
-        "route": "/:id/status",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+        "sourceProject": "AIWarehouseManager",
+        "path": "backend/src/routes/extensions.js:287",
+        "route": "/smarthome/status",
+        "originApp": "transportation-logistics/warehouse-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISatelliteImageryAnalyzer",
+        "path": "backend/routes/batch.js:27",
+        "route": "/update-status",
+        "originApp": "transportation-logistics/warehouse-manager"
       }
     ]
   },
@@ -11757,13 +11934,6 @@
     ],
     "evidence": [
       {
-        "kind": "api",
-        "sourceProject": "AIDroneDeliveryLastMile",
-        "path": "backend/routes/feeds.js:44",
-        "route": "/weather",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIAutonomousDroneOperations",
         "path": "frontend/src/App.js:73",
@@ -11792,6 +11962,34 @@
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       },
       {
+        "kind": "api",
+        "sourceProject": "AIDroneDeliveryLastMile",
+        "path": "backend/routes/feeds.js:44",
+        "route": "/weather",
+        "originApp": "transportation-logistics/drone-delivery-last-mile"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMaritimeShippingPortLogistics",
+        "path": "frontend/src/App.jsx:54",
+        "route": "/weather",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMaritimeShippingPortLogistics",
+        "path": "frontend/src/components/Layout.jsx:13",
+        "route": "/weather",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMaritimeShippingPortLogistics",
+        "path": "frontend/src/pages/Dashboard.jsx:71",
+        "route": "/weather",
+        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
+      },
+      {
         "kind": "navigation",
         "sourceProject": "AIAirportAirTrafficOperations",
         "path": "frontend/src/components/Navbar.js:15",
@@ -11815,30 +12013,9 @@
       {
         "kind": "page",
         "sourceProject": "AIAirportAirTrafficOperations",
-        "path": "frontend/src/pages/Dashboard.js:40",
+        "path": "frontend/src/pages/Dashboard.js:39",
         "route": "/weather",
         "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMaritimeShippingPortLogistics",
-        "path": "frontend/src/App.jsx:54",
-        "route": "/weather",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMaritimeShippingPortLogistics",
-        "path": "frontend/src/components/Layout.jsx:13",
-        "route": "/weather",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMaritimeShippingPortLogistics",
-        "path": "frontend/src/pages/Dashboard.jsx:71",
-        "route": "/weather",
-        "originApp": "transportation-logistics/maritime-shipping-port-logistics"
       }
     ]
   },
