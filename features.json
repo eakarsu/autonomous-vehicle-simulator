@@ -89,6 +89,40 @@
     ]
   },
   {
+    "name": "AI Anomaly Triage",
+    "canonicalKey": "ai anomaly triage",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/anomaly-triage"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIAnomalyTriagePage.js",
+        "route": "/ai/anomaly-triage",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/components/Sidebar.js:81",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
     "name": "AI Autonomy",
     "canonicalKey": "ai autonomy",
     "aliases": [
@@ -142,11 +176,42 @@
   {
     "name": "AI Conjunction Risk",
     "canonicalKey": "ai conjunction risk",
-    "aliases": [
-      "AI Conjunction Risk Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/conjunction-risk"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIConjunctionRiskPage.js",
+        "route": "/ai/conjunction-risk",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/components/Sidebar.js:80",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "AI Conjunction Risk Page",
+    "canonicalKey": "ai conjunction risk",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -159,13 +224,6 @@
       "transportation-logistics/autonomous-vehicle-simulator"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AISpaceportOps",
-        "path": "frontend/src/components/Sidebar.js:80",
-        "route": "",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
       {
         "kind": "page",
         "sourceProject": "AISpaceportOps",
@@ -200,6 +258,32 @@
     ]
   },
   {
+    "name": "AI Debris Mitigation Plan",
+    "canonicalKey": "ai debris mitigation plan",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/debris-mitigation-plan"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIDebrisMitigationPlanPage.js",
+        "route": "/ai/debris-mitigation-plan",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
     "name": "AI Debris Mitigation Plan Page",
     "canonicalKey": "ai debris mitigation plan",
     "aliases": [],
@@ -228,11 +312,42 @@
   {
     "name": "AI Draft Press Release",
     "canonicalKey": "ai draft press release",
-    "aliases": [
-      "AI Draft Press Release Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/draft-press-release"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIDraftPressReleasePage.js",
+        "route": "/ai/draft-press-release",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/components/Sidebar.js:91",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "AI Draft Press Release Page",
+    "canonicalKey": "ai draft press release",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -246,13 +361,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISpaceportOps",
-        "path": "frontend/src/components/Sidebar.js:91",
-        "route": "",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISpaceportOps",
         "path": "frontend/src/pages/AIDraftPressReleasePage.js",
@@ -262,13 +370,50 @@
     ]
   },
   {
+    "name": "AI Executive Brief",
+    "canonicalKey": "ai brief executive",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/executive-brief"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIExecutiveBriefPage.js",
+        "route": "/ai/executive-brief",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/components/Sidebar.js:89",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
     "name": "AI Flight Analysis",
     "canonicalKey": "ai analysis flight",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "navigation"
     ],
-    "routes": [],
+    "routes": [
+      "/ground-stations?tool=flight-analysis"
+    ],
     "sourceProjects": [
       "AIAutonomousDroneOperations"
     ],
@@ -276,6 +421,13 @@
       "transportation-logistics/autonomous-vehicle-simulator"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIAutonomousDroneOperations",
+        "path": "frontend/src/pages/FeaturePage.js:358",
+        "route": "/ground-stations?tool=flight-analysis",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
       {
         "kind": "navigation",
         "sourceProject": "AIAutonomousDroneOperations",
@@ -288,11 +440,42 @@
   {
     "name": "AI Fuel Loadout Calc",
     "canonicalKey": "ai calc fuel loadout",
-    "aliases": [
-      "AI Fuel Loadout Calc Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/fuel-loadout-calc"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIFuelLoadoutCalcPage.js",
+        "route": "/ai/fuel-loadout-calc",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/components/Sidebar.js:69",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "AI Fuel Loadout Calc Page",
+    "canonicalKey": "ai calc fuel loadout",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -305,13 +488,6 @@
       "transportation-logistics/autonomous-vehicle-simulator"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AISpaceportOps",
-        "path": "frontend/src/components/Sidebar.js:69",
-        "route": "",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
       {
         "kind": "page",
         "sourceProject": "AISpaceportOps",
@@ -372,6 +548,32 @@
     ]
   },
   {
+    "name": "AI Ground Systems Checklist",
+    "canonicalKey": "ai checklist ground system",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/ground-systems-checklist"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIGroundSystemsChecklistPage.js",
+        "route": "/ai/ground-systems-checklist",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
     "name": "AI Ground Systems Checklist Page",
     "canonicalKey": "ai checklist ground system",
     "aliases": [],
@@ -426,11 +628,42 @@
   {
     "name": "AI Launch Window Optimize",
     "canonicalKey": "ai launch optimize window",
-    "aliases": [
-      "AI Launch Window Optimize Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/launch-window-optimize"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AILaunchWindowOptimizePage.js",
+        "route": "/ai/launch-window-optimize",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/components/Sidebar.js:65",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "AI Launch Window Optimize Page",
+    "canonicalKey": "ai launch optimize window",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -444,17 +677,44 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "AISpaceportOps",
-        "path": "frontend/src/components/Sidebar.js:65",
-        "route": "",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
-      {
         "kind": "page",
         "sourceProject": "AISpaceportOps",
         "path": "frontend/src/pages/AILaunchWindowOptimizePage.js",
         "route": "/AILaunchWindowOptimizePage",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "AI Mission Brief",
+    "canonicalKey": "ai brief mission",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/mission-brief"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIMissionBriefPage.js",
+        "route": "/ai/mission-brief",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/components/Sidebar.js:67",
+        "route": "",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       }
     ]
@@ -544,11 +804,42 @@
   {
     "name": "AI Ngs Link Budget",
     "canonicalKey": "ai budget link ngs",
-    "aliases": [
-      "AI Ngs Link Budget Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/ngs-link-budget"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AINgsLinkBudgetPage.js",
+        "route": "/ai/ngs-link-budget",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/components/Sidebar.js:73",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "AI Ngs Link Budget Page",
+    "canonicalKey": "ai budget link ngs",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -561,13 +852,6 @@
       "transportation-logistics/autonomous-vehicle-simulator"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AISpaceportOps",
-        "path": "frontend/src/components/Sidebar.js:73",
-        "route": "",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
       {
         "kind": "page",
         "sourceProject": "AISpaceportOps",
@@ -628,6 +912,32 @@
     ]
   },
   {
+    "name": "AI Payload Integration Checklist",
+    "canonicalKey": "ai checklist integration payload",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/payload-integration-checklist"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIPayloadIntegrationChecklistPage.js",
+        "route": "/ai/payload-integration-checklist",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
     "name": "AI Payload Integration Checklist Page",
     "canonicalKey": "ai checklist integration payload",
     "aliases": [],
@@ -673,6 +983,32 @@
         "sourceProject": "AISpaceportOps",
         "path": "frontend/src/components/Sidebar.js:70",
         "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "AI Payload Trajectory Check",
+    "canonicalKey": "ai check payload trajectory",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/payload-trajectory-check"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIPayloadTrajectoryCheckPage.js",
+        "route": "/ai/payload-trajectory-check",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       }
     ]
@@ -730,11 +1066,42 @@
   {
     "name": "AI Post Flight Narrative",
     "canonicalKey": "ai flight narrative post",
-    "aliases": [
-      "AI Post Flight Narrative Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/post-flight-narrative"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIPostFlightNarrativePage.js",
+        "route": "/ai/post-flight-narrative",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/components/Sidebar.js:90",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "AI Post Flight Narrative Page",
+    "canonicalKey": "ai flight narrative post",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -747,13 +1114,6 @@
       "transportation-logistics/autonomous-vehicle-simulator"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AISpaceportOps",
-        "path": "frontend/src/components/Sidebar.js:90",
-        "route": "",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
       {
         "kind": "page",
         "sourceProject": "AISpaceportOps",
@@ -792,11 +1152,42 @@
   {
     "name": "AI Range Safety Assess",
     "canonicalKey": "ai assess range safety",
-    "aliases": [
-      "AI Range Safety Assess Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/range-safety-assess"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIRangeSafetyAssessPage.js",
+        "route": "/ai/range-safety-assess",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/components/Sidebar.js:79",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "AI Range Safety Assess Page",
+    "canonicalKey": "ai assess range safety",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -809,13 +1200,6 @@
       "transportation-logistics/autonomous-vehicle-simulator"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AISpaceportOps",
-        "path": "frontend/src/components/Sidebar.js:79",
-        "route": "",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
       {
         "kind": "page",
         "sourceProject": "AISpaceportOps",
@@ -854,11 +1238,42 @@
   {
     "name": "AI Recovery Plan",
     "canonicalKey": "ai plan recovery",
-    "aliases": [
-      "AI Recovery Plan Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/recovery-plan"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIRecoveryPlanPage.js",
+        "route": "/ai/recovery-plan",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/components/Sidebar.js:68",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "AI Recovery Plan Page",
+    "canonicalKey": "ai plan recovery",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -871,13 +1286,6 @@
       "transportation-logistics/autonomous-vehicle-simulator"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AISpaceportOps",
-        "path": "frontend/src/components/Sidebar.js:68",
-        "route": "",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
       {
         "kind": "page",
         "sourceProject": "AISpaceportOps",
@@ -907,6 +1315,32 @@
         "sourceProject": "AISpaceportOps",
         "path": "frontend/src/components/Sidebar.js:92",
         "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "AI Regulatory Compliance Check",
+    "canonicalKey": "ai check compliance regulatory",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/regulatory-compliance-check"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIRegulatoryComplianceCheckPage.js",
+        "route": "/ai/regulatory-compliance-check",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       }
     ]
@@ -1024,11 +1458,42 @@
   {
     "name": "AI Sonic Boom Forecast",
     "canonicalKey": "ai boom forecast sonic",
-    "aliases": [
-      "AI Sonic Boom Forecast Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/sonic-boom-forecast"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AISonicBoomForecastPage.js",
+        "route": "/ai/sonic-boom-forecast",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/components/Sidebar.js:83",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "AI Sonic Boom Forecast Page",
+    "canonicalKey": "ai boom forecast sonic",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -1041,13 +1506,6 @@
       "transportation-logistics/autonomous-vehicle-simulator"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AISpaceportOps",
-        "path": "frontend/src/components/Sidebar.js:83",
-        "route": "",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
       {
         "kind": "page",
         "sourceProject": "AISpaceportOps",
@@ -1086,11 +1544,42 @@
   {
     "name": "AI Weather Window Brief",
     "canonicalKey": "ai brief weather window",
-    "aliases": [
-      "AI Weather Window Brief Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/weather-window-brief"
+    ],
+    "sourceProjects": [
+      "AISpaceportOps"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/pages/AIWeatherWindowBriefPage.js",
+        "route": "/ai/weather-window-brief",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AISpaceportOps",
+        "path": "frontend/src/components/Sidebar.js:66",
+        "route": "",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
+      }
+    ]
+  },
+  {
+    "name": "AI Weather Window Brief Page",
+    "canonicalKey": "ai brief weather window",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -1103,13 +1592,6 @@
       "transportation-logistics/autonomous-vehicle-simulator"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AISpaceportOps",
-        "path": "frontend/src/components/Sidebar.js:66",
-        "route": "",
-        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
       {
         "kind": "page",
         "sourceProject": "AISpaceportOps",
@@ -1540,19 +2022,14 @@
     "canonicalKey": "anomaly detection",
     "aliases": [],
     "kinds": [
-      "api",
       "navigation"
     ],
-    "routes": [
-      "/anomaly-detection"
-    ],
+    "routes": [],
     "sourceProjects": [
-      "AIAutonomousDroneOperations",
-      "AILast-MileDeliveryOptimizer"
+      "AIAutonomousDroneOperations"
     ],
     "consolidatedFromApps": [
-      "transportation-logistics/autonomous-vehicle-simulator",
-      "transportation-logistics/drone-delivery-last-mile"
+      "transportation-logistics/autonomous-vehicle-simulator"
     ],
     "evidence": [
       {
@@ -1561,13 +2038,6 @@
         "path": "frontend/src/components/Sidebar.js:43",
         "route": "",
         "originApp": "transportation-logistics/autonomous-vehicle-simulator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AILast-MileDeliveryOptimizer",
-        "path": "backend/routes/ai.js:340",
-        "route": "/anomaly-detection",
-        "originApp": "transportation-logistics/drone-delivery-last-mile"
       }
     ]
   },
@@ -9200,8 +9670,7 @@
       "api"
     ],
     "routes": [
-      "/run",
-      "/scenarios/:id/run"
+      "/run"
     ],
     "sourceProjects": [
       "AIAerospaceMRO",
@@ -9214,12 +9683,8 @@
       "AIInventoryDroneOps",
       "AILast-MileDeliveryOptimizer",
       "AIMaritimeShippingPortLogistics",
-      "AIParkingManagementPlatform",
       "AISpaceDebrisTracker",
-      "AISupplyChainReshoringAdvisor",
-      "AISupplyChainTracker",
       "AIVehicleInspectionCertification",
-      "hardware-supply-chain",
       "movingCompany"
     ],
     "consolidatedFromApps": [
@@ -9228,7 +9693,6 @@
       "transportation-logistics/fleet-maintenance-scheduler",
       "transportation-logistics/maritime-shipping-port-logistics",
       "transportation-logistics/space-debris-tracker",
-      "transportation-logistics/supply-chain-tracker",
       "transportation-logistics/warehouse-manager"
     ],
     "evidence": [
@@ -10148,258 +10612,6 @@
         "path": "backend/src/routes/gapNoWebhooksOrPushNotificationsForRealTimeConjunction.js:55",
         "route": "/run",
         "originApp": "transportation-logistics/space-debris-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/customFeat01_AutonomousPricingEngine.js:85",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/customFeat02_ComputerVisionEnforcement.js:85",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/customFeat03_EvChargingOptimization.js:85",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/customFeat04_ResidentPermitFraudDetection.js:85",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/customFeat05_TrafficAwareGuidance.js:85",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/gapFeat_facilities_without_facility.js:72",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/gapFeat_limited_customer_self.js:72",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/gapFeat_limited_multi.js:72",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/gapFeat_maintenance_without_asset.js:72",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/gapFeat_no_integration_with_traffic_navigation_apps_waze_g.js:72",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/gapFeat_no_integrations_with_ride.js:72",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/gapFeat_no_license_plate_database_integration_dmv_vehicle_.js:72",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/gapFeat_no_native_mobile_app_web_only.js:72",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/gapFeat_no_webhooks_for_external_systems.js:72",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIParkingManagementPlatform",
-        "path": "server/routes/gapFeat_security_without_intrusion.js:72",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainReshoringAdvisor",
-        "path": "backend/routes/aiAdvanced.js:149",
-        "route": "/scenarios/:id/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainReshoringAdvisor",
-        "path": "backend/routes/gapAiEndpointsUnderEnumeratedShouldExposeLaborCostPrediction.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainReshoringAdvisor",
-        "path": "backend/routes/gapNoConversationalReshoringAdvisorChat.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainReshoringAdvisor",
-        "path": "backend/routes/gapNoFeasibilityScoringDecisionTree.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainReshoringAdvisor",
-        "path": "backend/routes/gapNoIntegrationsWithPublicDataApisBlsUn.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainReshoringAdvisor",
-        "path": "backend/routes/gapNoMultiTenantClientWorkspaceSeparation.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainReshoringAdvisor",
-        "path": "backend/routes/gapNoProjectManagementForReshoringInitiatives.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainReshoringAdvisor",
-        "path": "backend/routes/gapNoScenarioComparisonEndpoint.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainReshoringAdvisor",
-        "path": "backend/routes/gapNoScenarioModelingComparisonUiRoute.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainReshoringAdvisor",
-        "path": "backend/routes/gapNoWebhooksOrExternalNotifications.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "server/routes/gapNo3plIntegration.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "server/routes/gapNoAiDrivenFreightCostOptimization.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "server/routes/gapNoAiDrivenNetworkOptimizationFacilitySourcingPointPlacement.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "server/routes/gapNoAuditLog.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "server/routes/gapNoCustomerPortalForShipmentVisibility.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "server/routes/gapNoFreightCostAnalytics.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "server/routes/gapNoIotSensorIngestionTemperatureHumidityForCold.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "server/routes/gapNoMultiTenantOperatorSeparation.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "server/routes/gapNoPredictiveQualityScoring.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISupplyChainTracker",
-        "path": "server/routes/gapNoWebhooksOrExternalNotifications.js:55",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "hardware-supply-chain",
-        "path": "backend/routes/aql.js:69",
-        "route": "/run",
-        "originApp": "transportation-logistics/supply-chain-tracker"
       },
       {
         "kind": "api",
@@ -11340,6 +11552,32 @@
         "path": "backend/routes/ai.js:415",
         "route": "/optimize-route/stream",
         "originApp": "transportation-logistics/fleet-maintenance-scheduler"
+      }
+    ]
+  },
+  {
+    "name": "Stream Mission Id",
+    "canonicalKey": "id mission stream",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-mission-stream"
+    ],
+    "sourceProjects": [
+      "AIAutonomousDroneOperations"
+    ],
+    "consolidatedFromApps": [
+      "transportation-logistics/autonomous-vehicle-simulator"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIAutonomousDroneOperations",
+        "path": "frontend/src/pages/AIMissionStream.js:1",
+        "route": "/ai-mission-stream",
+        "originApp": "transportation-logistics/autonomous-vehicle-simulator"
       }
     ]
   },
